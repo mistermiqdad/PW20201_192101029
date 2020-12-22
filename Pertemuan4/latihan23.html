@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>teks jalan</title>
+<script language="VBScript">
+// <!--
+var Teks,Pjteks,Ambil1,Ambil2
+Teks =" welcome my elearning " & Space(15)
+function TeksJalan() {
+    Pjteks=Len(Teks)
+    Ambil1=Mid(Teks, 2, Pjteks-1)
+    Ambil2=Mid(Teks,1,1)
+    Teks=Ambil1 & Ambil2
+    Window.Status=Teks
+    Window.SetTimeOut+"TeksJalan", 200
+}
+// -->
+</script>
+</head>
+<body OnLoad=TeksJalan>
+</body>
+</html>
